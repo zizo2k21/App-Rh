@@ -1,0 +1,30 @@
+$widthDesktop: 1920px;
+$widthLaptop: 1440px;
+$widthTablette: 1024px;
+$widthMobile: 767px;
+
+
+@mixin desktop {
+  @media ( max-width: $widthDesktop ) { @content }
+};
+
+@mixin laptop {
+  @media ( max-width: $widthLaptop ) { @content }
+};
+
+@mixin tablette {
+  @media ( max-width: $widthTablette ) { @content }
+};
+
+@mixin minTablet {
+  @media only screen and (min-width: $widthTablette) { @content; }
+};
+
+@mixin mobile {
+  @media ( max-width: $widthMobile ) { @content }
+};
+
+@mixin fs($sizeValue: 16) {
+  font-size: $sizeValue + px;
+  font-size: calc($sizeValue / 16) + rem;
+}

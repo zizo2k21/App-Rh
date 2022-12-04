@@ -1,0 +1,78 @@
+$colorPrimary: #0062ff;
+$colorPrimaryDark: darken($colorPrimary, 10%);
+$colorPrimaryLight: lighten($colorPrimary, 10%);
+
+$colorSecondary: #fc5a5a;
+$colorSecondaryDark: darken($colorSecondary, 10%);
+$colorSecondaryLight: lighten($colorSecondary, 10%);
+
+$colorGrey: #f0f0f0;
+$colorGreyDark: darken($colorGrey, 10%);
+$colorGreyLight: lighten($colorGrey, 10%);
+
+$colorText: #000000;
+$colorTextGrey: #696974;
+$colorTextWhite: #ffffff;
+$colorTextBlue: #7385a0;
+
+$colorInfo: #ffc542;
+$colorInfoLight: lighten($colorInfo, 25%);
+$colorInfoDark: darken($colorInfo, 14%);
+
+$colorError: #f44336;
+$colorErrorLight: lighten($colorError, 25%);
+$colorErrorDark: darken($colorError, 14%);
+
+$colorSuccess: #3dd598;
+$colorSuccessLight: lighten($colorSuccess, 25%);
+$colorSuccessDark: darken($colorSuccess, 14%);
+
+$colorWaiting: #ff974a;
+$colorWaitingLight: lighten($colorWaiting, 25%);
+$colorWaitingDark: darken($colorWaiting, 14%);
+
+$colorwithdrawal: #92929d;
+$colorwithdrawalLight: lighten($colorwithdrawal, 25%);
+$colorwithdrawalDark: darken($colorwithdrawal, 14%);
+
+$colorInputBackground: #f4f9fe;
+$colorDashboardBackground: #f1f1f5;
+
+$light: 300;
+$regular: 400;
+$semibold: 600;
+$bold: 700;
+
+$borderRadiusButton: 25px;
+$borderRadiusInput: 5px;
+$borderInfoBox: 10px;
+$borderRadiusBar: 20px;
+
+$dashboardContainerMaxWidth: 1100px;
+
+$transition: all linear 0.28s;
+
+// dependencies
+@import "dependencies/reset";
+@import "dependencies/mixin";
+
+// Global
+@import "part/global"
+
+// Compenents
+
+
+// Forms
+
+
+// Views
+
+
+//Layouts
+
+
+//Container
+// @import "part/dashbord-container";
+
+//Logout btn
+

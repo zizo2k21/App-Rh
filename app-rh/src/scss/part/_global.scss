@@ -1,0 +1,26 @@
+// Container css
+.container {
+  
+    padding: 60px 20px;
+  
+    &.-full-height {
+      height: 100vh;
+    }
+  
+    &.-no-padding {
+      padding: 0;
+    }
+  
+    .content-container {
+      width: 100%;
+      max-width: 1024px;
+      margin: 0 auto;
+  
+      &.-full-height {
+        height: 100%;
+      }
+  
+    }
+  
+  }
+  
